@@ -268,32 +268,6 @@ a{
   border-radius:20px;
 }
 
-/* CLASS */
-.abouts{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:50px;
-  align-items:center;
-  padding:80px 0;
-}
-
-.abouts h2{
-  font-size:40px;
-  margin-bottom:20px;
-}
-
-.abouts p{
-  margin-bottom:20px;
-  color:#666;
-}
-
-.abouts img{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
 /* QUOTE */
 
 .quote-box{

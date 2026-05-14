@@ -74,7 +74,7 @@ darkBtn.addEventListener('click', () => {
 // TYPING EFFECT
 const heroTitle = document.querySelector('.hero h1');
 
-if (heroTitle) {
+if (heroTitle && window.innerWidth > 768) {
 
   const text = heroTitle.innerText;
 
@@ -83,14 +83,21 @@ if (heroTitle) {
   let i = 0;
 
   function typingEffect() {
+
     if (i < text.length) {
+
       heroTitle.innerHTML += text.charAt(i);
+
       i++;
+
       setTimeout(typingEffect, 60);
+
     }
+
   }
 
   typingEffect();
+
 }
 
 // HOVER TILT EFFECT
